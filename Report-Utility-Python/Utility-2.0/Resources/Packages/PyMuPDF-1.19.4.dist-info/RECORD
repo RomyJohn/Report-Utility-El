@@ -1,0 +1,15 @@
+PyMuPDF-1.19.4.dist-info/COPYING,sha256=282751b8c98ee9e445346eb57a992c9ecbe25ed8dd554df046777313e19b10f9,35181
+PyMuPDF-1.19.4.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+PyMuPDF-1.19.4.dist-info/METADATA,sha256=aeffdb43143f231ac4361b190b092864ed233e7b20fdc301cf5d444a5e254c5c,10241
+PyMuPDF-1.19.4.dist-info/RECORD,,
+PyMuPDF-1.19.4.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyMuPDF-1.19.4.dist-info/WHEEL,sha256=f9ad854545bb9600fead29d3d3cb47e20ebe57d8452d7d7616e3e338a32c7b77,106
+fitz/__init__.py,sha256=6cdb976a2afe7cf466e508c1fa1750b431fd409d4f055a3a346aefc36925473c,20276
+fitz/__main__.py,sha256=9f133ec488309fbae439e6c68c5364a2b7323a30b040c47373364c3775b169fc,40869
+fitz/__pycache__/__init__.cpython-310.pyc,,
+fitz/__pycache__/__main__.cpython-310.pyc,,
+fitz/__pycache__/fitz.cpython-310.pyc,,
+fitz/__pycache__/utils.cpython-310.pyc,,
+fitz/_fitz.pyd,sha256=574d93db227b7ae49be8deaea9d2aa3dc1f5f85facfdee187febd9240650c3e4,12151808
+fitz/fitz.py,sha256=668cdcfdb7b820dd5d42593f4ef8dd070f8462533e080be9bbea83ccd9376fc9,331526
+fitz/utils.py,sha256=57236706ae04a98739f01b7e535a8098a8a22918374d94618e3535e90d16ddd9,177122

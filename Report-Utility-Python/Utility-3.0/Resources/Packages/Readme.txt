@@ -1,0 +1,1 @@
+File location to paste packages - C:\Users\{Username}\AppData\Local\Programs\Python\Python310\Lib\site-packages\
