@@ -1,0 +1,621 @@
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: Gotham;
+                src: url(" D:/Report-Utility-El/Report-Utility-Python/Utility-6.0/Resources/Fonts/GothamBook.ttf ");
+            }
+            @font-face {
+                font-family: MuseoSansRounded;
+                src: url(" D:/Report-Utility-El/Report-Utility-Python/Utility-6.0/Resources/Fonts/MuseoSansRounded.ttf ");
+            }
+            body {
+                width: 100%;
+                margin: 0px;
+                font-family: Gotham;
+            }
+            .heading{
+                font-family: MuseoSansRounded;
+            }
+            table {
+                width: 100%;
+                margin-left: 0px;
+                margin-right: 0px;
+                border-collapse: collapse;
+            }
+            p.groove {
+                border-style: groove;
+            }
+            ul li::before {
+                font-size: 30px;
+                color: #007bff;
+                font-weight: bold;
+                display: inline-block;
+            }
+            .data {
+                font-size: 19px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .scannedImagesSection {
+                font-size: 18px;
+            }
+            td {
+                padding-top: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .right {
+                text-align: right;
+            }
+            .center {
+                text-align: center;
+            }
+            .orthoImage {
+                height: 270px;
+                width: 370px;
+            }
+            .orthoImage1 {
+                height: 220px;
+                width: 370px;
+            }
+            .secondPDFSection {
+                font-size: 20px;
+                text-align: center;
+            }
+            .child {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .AnalysisTableDiv table {
+                border-collapse: collapse;
+                border: 1px solid #7090A9;
+                border-spacing: 5px;
+                text-align: left;
+                font-size: 12pt;
+                white-space: nowrap;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            .AnalysisTableDiv td {
+                border: 1px solid #7090A9;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .OrthoLeftDiv {
+                margin-top: 20px;
+                text-align: left;
+            }
+            .OrthoCenterCaption {
+                margin: auto;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                display: table;
+                font-weight: bold;
+                font-size: 15pt;
+            }
+            .SpaceAnalysisBlock {
+                width: 48%;
+                margin: 5px;
+                margin-top: 10px;
+            }
+            .OrthoValueTable th {
+                color: #7090A9;
+                border-bottom: 1px solid #7090A9;
+                border-collapse: collapse;
+                text-align: left;
+                font-size: 13pt;
+            }
+            .SpaceAnalysisBlockInline {
+                width: 48%;
+                margin: 5px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .SpaceAnalysisBlockInline {
+                width: 48%;
+                margin: 5px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .OrthoValueTable li {
+                color: #7090A9;
+            }
+            .OrthoPropertyName {
+                color: DimGray;
+                font-size: 12pt;
+                font-weight: normal;
+                margin-right: 20px;
+                font-weight: bold;
+            }
+            .OrthoPropertyValue {
+                font-weight: normal;
+                font-size: 12pt;
+            }          
+            .BoltonAnalysisBlock {
+                width: 48%;
+                display: inline-block;
+                margin: 5px;
+                vertical-align: top;
+            }
+            .OrthoValueTable {
+                width: 95%;
+                margin-left: 10px;
+                border-spacing: 0;
+            }
+            .AnalysisTableDiv {
+                margin: auto;
+                display: table;
+            }
+            .TeethMovementDiv {
+                width: 100%;
+                max-width: 100%;
+            }
+            .TeethMovementDiv table {
+                border-collapse: collapse;
+                border: 1px solid #7090A9;
+                border-spacing: 5px;
+                text-align: left;
+                font-size: 9pt;
+                white-space: nowrap;
+                margin-top: 20px;
+            }
+            .TeethMovementDiv tr:nth-of-type(1) {
+                white-space: normal;
+            }
+            .TeethMovementDiv table caption {
+                font-weight: normal;
+                text-align: left;
+                padding-left: 10px;
+            }
+            .TeethMovementDiv td {
+                border: 1px solid #7090A9;
+                padding:5px;
+                font-size: 10pt;
+            }
+            .TeethMovementDiv td:nth-of-type(1) {
+                max-width: 50px;
+            }
+            .TeethMovementDiv td:nth-of-type(n+2) {
+                min-width: 30px;
+                max-width: 100px;
+            }
+            .TeethMovementDiv table caption {
+                font-weight: bold;
+                text-align: left;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <table cellpadding='1' cellspacing='1' class='superimpositionSection'>
+                <tr>
+                    <td class='center'>
+                        <img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\croppedImages\Image60.png" style='height:400px; width:600px;' class='orthoImage' alt='No Image'>
+                    </td>
+                </tr>
+            </table>
+			<br/><br/><br/><br/>
+            <table cellpadding='1' cellspacing='1' class='superimpositionSection'>
+                <tr>
+                    <td class='center'>
+                        <img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\croppedImages\Image61.png" style='height:400px; width:600px;' class='orthoImage' alt='No Image'>
+                    </td>
+                </tr>
+            </table>
+			<br/><br/><br/>
+            <table cellpadding='1' cellspacing='1' class='superimpositionSection'>
+                <tr>
+                    <td class='center'>
+                        <h3>Amount of tooth movement achieved at the end of the treatment</h3>
+                    </td>
+                </tr>
+				<tr>
+					<td class='center'>
+                        <h3>
+                            <img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\Resources\Images\box1.png" style='height:25px; width:25px;' class='orthoImage' alt='No Image'> 
+                            &nbsp; Blue: Post-Treatment
+                        </h3>
+                        <h3>
+                            <img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\Resources\Images\box2.png" style='height:25px; width:25px;' class='orthoImage' alt='No Image'> 
+                            &nbsp; White: Pre-Treatment 
+                        </h3>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><div class='parent'>
+                <div class='child' style='height:50px;width:50px;background-color:#D3D3D3;border-radius:100%;text-align:center;margin-right:6px;'>
+                    <p style='font-size:35px;margin-top:4px;' class='heading'>V</p>
+                </div>
+                <div class='child'>
+                    <p style='font-size:40px;color:#F58320;padding-bottom:0px;margin-bottom:0px;' class='heading'>Hello VISHWAKRIT CHORADIA</p>
+                    <p style='font-size:20px;padding-top:0px;margin-top:0px;' class='heading'>Case ID: 2401071894</p>
+                </div>
+                </div>
+                <p style='font-size:28px;color:#54BDE3;line-height:150%;'>Get ready for the memorable journey towards your perfect smile!! Your customised treatment plan is ready based on your desire. Let’s explore the digital design of your comprehensive treatment plan.</p><br/><br/><br/><br/><br/><br/>
+            <span class="OrthoCenterCaption">PRE-TREATMENT VIEW</span>
+            <br/>
+            <table cellpadding='1' cellspacing='1'>
+                <tr>
+                    <td>
+                        <p class='groove center'><img
+                                src = "D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedImages\Image7.png"
+                                class='orthoImage' alt='No Image' /></p>
+                    </td>
+                    <td>
+                        <p class='groove center'><img
+                                src = "D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedImages\Image9.png"
+                                class='orthoImage' alt='No Image'></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='groove center'><img
+                                src = "D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedImages\Image11.png"
+                                class='orthoImage' alt='No Image'></p>
+                    </td>
+                    <td>
+                        <p class='groove center'><img
+                                src = "D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedImages\Image12.png"
+                                class='orthoImage' alt='No Image' /></p>
+                    </td>
+                </tr>
+            </table>
+            <br/><br/><br/><br/><br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/>
+            <span><b>ANNEXURE-1</b></span>
+            <br/>
+            <span class='OrthoCenterCaption' id='CaptionToothWidthAnalysis'>Tooth width analysis</span>
+            <div class="AnalysisTableDiv" id="ToothWidthAnalysisTable">
+<table class="OrthoAutoTable">
+<tbody>
+<tr><td>11</td><td>7.66 mm</td><td>21</td><td>7.56 mm</td><td rowspan="8">Actual arc length: 113.44 mm</td></tr>
+<tr><td>12</td><td>6.22 mm</td><td>22</td><td>5.75 mm</td><td style="display:none"></td></tr>
+<tr><td>13</td><td>6.34 mm</td><td>23</td><td>6.57 mm</td><td style="display:none"></td></tr>
+<tr><td>14</td><td>6.07 mm</td><td>24</td><td>5.90 mm</td><td style="display:none"></td></tr>
+<tr><td>15</td><td>6.25 mm</td><td>25</td><td>5.27 mm</td><td style="display:none"></td></tr>
+<tr><td>16</td><td>9.30 mm</td><td>26</td><td>9.14 mm</td><td style="display:none"></td></tr>
+<tr><td>17</td><td>8.95 mm</td><td>27</td><td>9.06 mm</td><td style="display:none"></td></tr>
+<tr><td>18</td><td>6.01 mm</td><td>28</td><td>7.38 mm</td><td style="display:none"></td></tr>
+<tr><td>48</td><td>5.01 mm</td><td>38</td><td>4.53 mm</td><td rowspan="8">Actual arc length: 102.39 mm</td></tr>
+<tr><td>47</td><td>8.18 mm</td><td>37</td><td>8.98 mm</td><td style="display:none"></td></tr>
+<tr><td>46</td><td>8.96 mm</td><td>36</td><td>9.57 mm</td><td style="display:none"></td></tr>
+<tr><td>45</td><td>5.78 mm</td><td>35</td><td>6.69 mm</td><td style="display:none"></td></tr>
+<tr><td>44</td><td>6.10 mm</td><td>34</td><td>6.82 mm</td><td style="display:none"></td></tr>
+<tr><td>43</td><td>5.95 mm</td><td>33</td><td>5.73 mm</td><td style="display:none"></td></tr>
+<tr><td>42</td><td>4.98 mm</td><td>32</td><td>5.39 mm</td><td style="display:none"></td></tr>
+<tr><td>41</td><td>4.64 mm</td><td>31</td><td>5.09 mm</td><td style="display:none"></td></tr>
+</tbody>
+</table></div><div class="autoheight OrthoLeftDiv" id="SpaceAnalysis">
+<span class="OrthoCenterCaption" id="CaptionSpaceAnalysis">Space Analysis</span>
+<div class="SpaceAnalysisBlock">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="MaxillarySpaceAnalysisCaption">MAXILLARY SPACE ANALYSIS</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="TotalSpaceAvailable">Total space available:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxTotalSpaceAvailable">63.60</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="IncisorWidths">Sum of incisor widths:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxIncisorWidths">27.20</span></td></tr>
+</tbody></table>
+</div>
+<div class="SpaceAnalysisBlockInline">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="MoyersCaption">Moyers</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="LeftCaninePremolars">Sum of left canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxMoyersLeftCaninePremolars">20.96</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="RightCaninePremolars">Sum of right canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxMoyersRightCaninePremolars">20.96</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="TotalSpaceRequired">Total space required:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxMoyersTotalSpaceRequired">69.11</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="Discrepancy">Discrepancy:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxMoyersDiscrepancy">-5.52</span></td></tr>
+</tbody></table>
+</div>
+<div class="SpaceAnalysisBlockInline">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="TanakaJohnstonCaption">Tanaka &amp; Johnston</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="LeftCaninePremolars">Sum of left canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxTanJonsLeftCaninePremolars">21.05</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="RightCaninePremolars">Sum of right canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxTanJonsRightCaninePremolars">21.05</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="TotalSpaceRequired">Total space required:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxTanJonsTotalSpaceRequired">69.30</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="Discrepancy">Discrepancy:</span></li></td>
+<td><span class="OrthoPropertyValue" id="MaxTanJonsDiscrepancy">-5.70</span></td></tr>
+</tbody></table>
+</div>
+<div class="SpaceAnalysisBlock">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="MandibularSpaceAnalysisCaption">MANDIBULAR SPACE ANALYSIS</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="TotalSpaceAvailable">Total space available:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManTotalSpaceAvailable">57.17</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="IncisorWidths">Sum of incisor widths:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManIncisorWidths">20.09</span></td></tr>
+</tbody></table>
+</div>
+<div class="SpaceAnalysisBlockInline">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="MoyersCaption">Moyers</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="LeftCaninePremolars">Sum of left canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManMoyersLeftCaninePremolars">20.46</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="RightCaninePremolars">Sum of right canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManMoyersRightCaninePremolars">20.46</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="TotalSpaceRequired">Total space required:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManMoyersTotalSpaceRequired">61.01</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="Discrepancy">Discrepancy:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManMoyersDiscrepancy">-3.84</span></td></tr>
+</tbody></table>
+</div>
+<div class="SpaceAnalysisBlockInline">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="TanakaJohnstonCaption">Tanaka &amp; Johnston</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="LeftCaninePremolars">Sum of left canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManTanJonsLeftCaninePremolars">20.55</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="RightCaninePremolars">Sum of right canine &amp; premolars:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManTanJonsRightCaninePremolars">20.55</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="TotalSpaceRequired">Total space required:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManTanJonsTotalSpaceRequired">61.19</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="Discrepancy">Discrepancy:</span></li></td>
+<td><span class="OrthoPropertyValue" id="ManTanJonsDiscrepancy">-4.02</span></td></tr>
+</tbody></table>
+</div>
+</div>
+            <br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <div class="autoheight OrthoLeftDiv" id="BoltonAnalysis">
+<span class="OrthoCenterCaption" id="CaptionBoltonAnalysis">Bolton analysis</span>
+<div class="BoltonAnalysisBlock">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="AnteriorBoltonAnalysisCaption">ANTERIOR BOLTON ANALYSIS</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="BoltonMaxillary6Caption">Maxillary 6 width:</span></li></td>
+<td><span class="OrthoPropertyValue" id="AnteriorMaxillaryWidth">40.11 mm</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="BoltonMandibular6Caption">Mandibular 6 width:</span></li></td>
+<td><span class="OrthoPropertyValue" id="AnteriorMandibularWidth">31.78 mm</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="BoltonRatio6Caption">Ratio:</span></li></td>
+<td><span class="OrthoPropertyValue" id="AnteriorRatio">0.79</span></td></tr>
+</tbody></table>
+<div class="AnalysisTableDiv BoltonAnalysistableDiv" id="AnteriorIdealRatios">
+<table class="OrthoAutoTable">
+<tbody>
+<tr><td>Maxill. 6</td><td>Mandib. 6</td><td>Ratio</td></tr>
+<tr><td>40.00</td><td>30.90</td><td>0.77</td></tr>
+<tr><td>40.50</td><td>31.30</td><td>0.77</td></tr>
+<tr><td>41.00</td><td>31.70</td><td>0.77</td></tr>
+<tr><td>41.50</td><td>32.00</td><td>0.77</td></tr>
+<tr><td>42.00</td><td>32.40</td><td>0.77</td></tr>
+<tr><td>42.50</td><td>32.80</td><td>0.77</td></tr>
+<tr><td>43.00</td><td>33.20</td><td>0.77</td></tr>
+<tr><td>43.50</td><td>33.60</td><td>0.77</td></tr>
+<tr><td>44.00</td><td>34.00</td><td>0.77</td></tr>
+<tr><td>44.50</td><td>34.40</td><td>0.77</td></tr>
+<tr><td>45.00</td><td>34.70</td><td>0.77</td></tr>
+<tr><td>45.50</td><td>35.10</td><td>0.77</td></tr>
+<tr><td>46.00</td><td>35.50</td><td>0.77</td></tr>
+<tr><td>46.50</td><td>35.90</td><td>0.77</td></tr>
+<tr><td>47.00</td><td>36.30</td><td>0.77</td></tr>
+<tr><td>47.50</td><td>36.70</td><td>0.77</td></tr>
+<tr><td>48.00</td><td>37.10</td><td>0.77</td></tr>
+<tr><td>48.50</td><td>37.40</td><td>0.77</td></tr>
+<tr><td>49.00</td><td>37.80</td><td>0.77</td></tr>
+<tr><td>49.50</td><td>38.20</td><td>0.77</td></tr>
+<tr><td>50.00</td><td>38.60</td><td>0.77</td></tr>
+<tr><td>50.50</td><td>39.00</td><td>0.77</td></tr>
+<tr><td>51.00</td><td>39.40</td><td>0.77</td></tr>
+<tr><td>51.50</td><td>39.80</td><td>0.77</td></tr>
+<tr><td>52.00</td><td>40.10</td><td>0.77</td></tr>
+<tr><td>52.50</td><td>40.50</td><td>0.77</td></tr>
+<tr><td>53.00</td><td>40.90</td><td>0.77</td></tr>
+<tr><td>53.50</td><td>41.30</td><td>0.77</td></tr>
+<tr><td>54.00</td><td>41.70</td><td>0.77</td></tr>
+<tr><td>54.50</td><td>42.10</td><td>0.77</td></tr>
+<tr><td>55.00</td><td>42.50</td><td>0.77</td></tr>
+</tbody>
+</table></div>
+</div>
+<div class="BoltonAnalysisBlock">
+<table class="OrthoValueTable AnteriorBoltonAnalysisCaptionDiv">
+<tbody><tr><th><span id="OverallBoltonAnalysisCaption">OVERALL BOLTON ANALYSIS</span></th><th></th>
+</tr><tr><td><li><span class="OrthoPropertyName" id="BoltonMaxillary12Caption">Maxillary 12 width:</span></li></td>
+<td><span class="OrthoPropertyValue" id="OverAllMaxillaryWidth">82.04 mm</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="BoltonMandibular12Caption">Mandibular 12 width:</span></li></td>
+<td><span class="OrthoPropertyValue" id="OverAllMandibularWidth">75.70 mm</span></td></tr>
+<tr><td><li><span class="OrthoPropertyName" id="BoltonRation12Caption">Ratio:</span></li></td>
+<td><span class="OrthoPropertyValue" id="OverAllRatio">0.92</span></td></tr>
+</tbody></table>
+<div class="AnalysisTableDiv BoltonAnalysistableDiv" id="OverAllIdealRatios">
+<table class="OrthoAutoTable">
+<tbody>
+<tr><td>Maxill. 12</td><td>Mandib. 12</td><td>Ratio</td></tr>
+<tr><td>85.00</td><td>77.60</td><td>0.91</td></tr>
+<tr><td>86.00</td><td>78.50</td><td>0.91</td></tr>
+<tr><td>87.00</td><td>79.40</td><td>0.91</td></tr>
+<tr><td>88.00</td><td>80.30</td><td>0.91</td></tr>
+<tr><td>89.00</td><td>81.30</td><td>0.91</td></tr>
+<tr><td>90.00</td><td>82.10</td><td>0.91</td></tr>
+<tr><td>91.00</td><td>83.10</td><td>0.91</td></tr>
+<tr><td>92.00</td><td>84.00</td><td>0.91</td></tr>
+<tr><td>93.00</td><td>84.90</td><td>0.91</td></tr>
+<tr><td>94.00</td><td>85.80</td><td>0.91</td></tr>
+<tr><td>95.00</td><td>86.70</td><td>0.91</td></tr>
+<tr><td>96.00</td><td>87.60</td><td>0.91</td></tr>
+<tr><td>97.00</td><td>88.60</td><td>0.91</td></tr>
+<tr><td>98.00</td><td>89.50</td><td>0.91</td></tr>
+<tr><td>99.00</td><td>90.40</td><td>0.91</td></tr>
+<tr><td>100.00</td><td>91.30</td><td>0.91</td></tr>
+<tr><td>101.00</td><td>92.20</td><td>0.91</td></tr>
+<tr><td>102.00</td><td>93.10</td><td>0.91</td></tr>
+<tr><td>103.00</td><td>94.00</td><td>0.91</td></tr>
+<tr><td>104.00</td><td>95.00</td><td>0.91</td></tr>
+<tr><td>105.00</td><td>95.90</td><td>0.91</td></tr>
+<tr><td>106.00</td><td>96.80</td><td>0.91</td></tr>
+<tr><td>107.00</td><td>97.80</td><td>0.91</td></tr>
+<tr><td>108.00</td><td>98.60</td><td>0.91</td></tr>
+<tr><td>109.00</td><td>99.50</td><td>0.91</td></tr>
+<tr><td>110.00</td><td>100.40</td><td>0.91</td></tr>
+</tbody>
+</table></div>
+</div>
+</div>
+            <br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <table cellpadding='1' cellspacing='1' style='margin-top:-50px;' class='scannedImagesSection'>
+                <tr>
+                    <td colspan='3'>
+                        <p class='secondPDFSection'><b>Front View</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='center'>Pre - Treatment </p>
+                    </td>
+                    <td>
+                        <p class='center'>Post - Treatment</p>
+                    </td>
+                </tr>
+                <tr>  
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image0.png"
+                            class='orthoImage1' alt='No Image'></td>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image5.png"
+                            class='orthoImage1' alt='No Image'></td>
+                </tr>
+            </table>
+            <table cellpadding='1' cellspacing='1' class='scannedImagesSection'>
+                <tr>
+                    <td colspan='3'>
+                        <br />
+                        <p class='secondPDFSection'><b>Right View</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='center'>Pre - Treatment </p>
+                    </td>
+                    <td>
+                        <p class='center'>Post - Treatment</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image1.png"
+                            class='orthoImage' alt='No Image'></td>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image6.png"
+                            class='orthoImage' alt='No Image'></td>
+                </tr>
+            </table>
+            <table cellpadding='1' cellspacing='1' class='scannedImagesSection'>
+                <tr>
+                    <td colspan='3'>
+                        <br />
+                        <p class='secondPDFSection'><b>Left View</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='center'>Pre - Treatment </p>
+                    </td>
+                    <td>
+                        <p class='center'>Post - Treatment</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image2.png"
+                            class='orthoImage' alt='No Image'></td>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image7.png"
+                            class='orthoImage' alt='No Image'></td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/><br/>
+            <table cellpadding='1' cellspacing='1' class='scannedImagesSection'>
+                <tr>
+                    <td colspan='3'>
+                        <p class='secondPDFSection'><b>Upper View</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='center'>Pre - Treatment </p>
+                    </td>
+                    <td>
+                        <p class='center'>Post - Treatment</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image3.png"
+                            class='orthoImage' alt='No Image'></td>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image8.png"
+                            class='orthoImage' alt='No Image'></td>
+                </tr>
+            </table>
+            <table cellpadding='1' cellspacing='1' class='scannedImagesSection'>
+                <tr>
+                    <td colspan='3'>
+                        <br />
+                        <p class='secondPDFSection'><b>Lower View</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class='center'>Pre - Treatment </p>
+                    </td>
+                    <td>
+                        <p class='center'>Post - Treatment</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image4.png"
+                            class='orthoImage' alt='No Image'></td>
+                    <td class='center'><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\tempFolder\extractedObject\Image9.png"
+                            class='orthoImage' alt='No Image'></td>
+                </tr>
+            </table>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+        <div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <span><b>ANNEXURE-3</b></span>
+            <span class='OrthoCenterCaption' id='CaptionToothWidthAnalysis'>Teeth Movement Report</span>
+            <div class="autoheight OrthoLeftDiv" id="TeethSetupTable">
+<div class="TeethMovementDiv" id="each-TeethSetupTable">
+<table class="OrthoAutoTable">
+<caption>upload plan</caption>
+<tbody>
+<tr><td>Tooth number</td><td>Rotation</td><td>Angulation</td><td>Inclination</td><td>Left/ Right</td><td>Extrusion/ Intrusion</td><td>Forward/ Backward</td><td>IPR Distal</td><td>IPR Mesial</td><td>Long Axis</td><td>Circumference</td></tr>
+<tr><td>16</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Manual</td><td>Manual</td><td>82.2 deg</td><td>37.1 mm</td></tr>
+<tr><td>15</td><td></td><td></td><td>2.0 deg</td><td>-0.9 mm</td><td></td><td></td><td>Manual</td><td>Manual</td><td>81.6 deg</td><td>26.9 mm</td></tr>
+<tr><td>14</td><td></td><td></td><td>4.0 deg</td><td>-1.7 mm</td><td></td><td></td><td>Manual</td><td>Manual</td><td>77.5 deg</td><td>26.2 mm</td></tr>
+<tr><td>13</td><td>-15.0 deg</td><td></td><td></td><td>-2.1 mm</td><td></td><td>0.9 mm</td><td>Manual</td><td>Manual</td><td>76.8 deg</td><td>23.8 mm</td></tr>
+<tr><td>12</td><td>9.2 deg</td><td></td><td>1.0 deg</td><td>-2.4 mm</td><td></td><td>-0.1 mm</td><td></td><td></td><td>75.3 deg</td><td>20.1 mm</td></tr>
+<tr><td>11</td><td>-1.0 deg</td><td></td><td>-5.0 deg</td><td>-0.4 mm</td><td>1.4 mm</td><td>-2.0 mm</td><td></td><td></td><td>76.0 deg</td><td>23.6 mm</td></tr>
+<tr><td>21</td><td>-38.3 deg</td><td></td><td></td><td>-3.6 mm</td><td>1.8 mm</td><td>-1.1 mm</td><td>Manual</td><td>Manual</td><td>68.1 deg</td><td>23.3 mm</td></tr>
+<tr><td>22</td><td>-10.0 deg</td><td></td><td></td><td>-2.6 mm</td><td>0.5 mm</td><td>0.4 mm</td><td>Manual</td><td>Manual</td><td>74.0 deg</td><td>19.2 mm</td></tr>
+<tr><td>23</td><td>-8.0 deg</td><td></td><td></td><td>-2.2 mm</td><td>0.3 mm</td><td>0.8 mm</td><td>Manual</td><td>Manual</td><td>82.3 deg</td><td>23.0 mm</td></tr>
+<tr><td>24</td><td></td><td></td><td></td><td>-1.5 mm</td><td></td><td>0.8 mm</td><td>Manual</td><td>Manual</td><td>86.7 deg</td><td>26.4 mm</td></tr>
+<tr><td>25</td><td></td><td></td><td></td><td>-0.8 mm</td><td></td><td>0.4 mm</td><td>Manual</td><td>Manual</td><td>84.2 deg</td><td>25.8 mm</td></tr>
+<tr><td>26</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Manual</td><td>Manual</td><td>77.5 deg</td><td>36.4 mm</td></tr>
+<tr><td>33</td><td>-16.0 deg</td><td></td><td>3.0 deg</td><td>0.5 mm</td><td>1.1 mm</td><td>0.3 mm</td><td></td><td></td><td>80.4 deg</td><td>21.2 mm</td></tr>
+<tr><td>32</td><td>-10.0 deg</td><td></td><td></td><td>-0.1 mm</td><td>0.9 mm</td><td>-0.5 mm</td><td></td><td></td><td>72.0 deg</td><td>17.3 mm</td></tr>
+<tr><td>31</td><td>-4.0 deg</td><td></td><td>-4.0 deg</td><td>0.3 mm</td><td>1.4 mm</td><td>-0.4 mm</td><td>Manual</td><td>Manual</td><td>68.0 deg</td><td>16.2 mm</td></tr>
+<tr><td>41</td><td>-1.0 deg</td><td></td><td>-5.0 deg</td><td>0.2 mm</td><td>1.5 mm</td><td>-0.2 mm</td><td>Manual</td><td>Manual</td><td>68.4 deg</td><td>15.9 mm</td></tr>
+<tr><td>42</td><td>-11.0 deg</td><td></td><td></td><td>-0.5 mm</td><td>0.9 mm</td><td>0.1 mm</td><td>Manual</td><td>Manual</td><td>70.3 deg</td><td>16.1 mm</td></tr>
+<tr><td>43</td><td>-13.0 deg</td><td></td><td></td><td>0.1 mm</td><td>1.0 mm</td><td>0.3 mm</td><td>Manual</td><td>Manual</td><td>82.3 deg</td><td>22.0 mm</td></tr>
+<tr><td>44</td><td></td><td></td><td></td><td></td><td></td><td>0.1 mm</td><td></td><td></td><td>79.0 deg</td><td>23.5 mm</td></tr>
+<tr><td>45</td><td></td><td></td><td>1.0 deg</td><td></td><td></td><td></td><td></td><td></td><td>83.6 deg</td><td>24.9 mm</td></tr>
+</tbody>
+</table></div>
+</div>
+            <br/><br/><br/><p style='font-size:28px;color:#0F6579;line-height:150%;'>Do reach out to our team if you have any further questions and we’d be happy to have our executives speak to you. Have a great day, and remember, <span style='color:#0F6579;'> keep smiling.</span><img src="D:\Report-Utility-El\Report-Utility-Python\Utility-6.0\Resources\Images\smily.png"></p>
+            <br/><p style='font-size:28px;color:#D62460;line-height:150%;margin-bottom:0px;padding-bottom:0px;'>Best Regards <br/> (<b>Team Rejove32 Aligners</b>)</p></div>
+    </body>
+    </html>
